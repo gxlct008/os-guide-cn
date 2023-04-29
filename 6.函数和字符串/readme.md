@@ -23,7 +23,7 @@ mystring:
 
 汇编语言中跳转条件是基于上一条指令的计算结果，例如：
 
-```
+```nasm
 cmp ax, 4      ; 如果ax = 4
 je ax_is_four  ; 跳转到指定位置
 jmp else       ; 否则，做另一件事
