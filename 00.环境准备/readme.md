@@ -4,9 +4,9 @@
 
 > 在开始以前，你需要了解这些概念： linux, mac, terminal, compiler, emulator, nasm, qemu
 
-## 需要准备的软件
+## 目标：安装本教程需要的软件
 
-由于我在 Macbook M1 上运行，则需要安装以下软件：
+### 1，在 Macbook M1 上运行，则需要安装以下软件：
 
 ```bash
 brew install qemu nasm
@@ -16,6 +16,12 @@ brew install qemu nasm
 
 ```bash
 /usr/local/bin/nasm
+```
+
+### 2，在 Linux (Ubuntu 2204) 上运行，需要安装 `qemu` 和 `nasm`
+
+```bash
+sudo apt install qemu nasm
 ```
 
 ## 让我们开始吧！
