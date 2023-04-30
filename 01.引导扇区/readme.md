@@ -66,6 +66,9 @@ qemu boot_sect_simple.bin
 
 > OSX 警告：如果出现错误，请再次阅读 00 章。
 
+I know you're anxious to try it out (I am!), so let's do it:
+anxious：急切地
+
 Linux 机器上运行：
 
 ```bash
@@ -81,7 +84,7 @@ qemu-system-x86_64 boot_sect_simple.bin
 
 <!-- <img width="1217" alt="image" src="https://user-images.githubusercontent.com/92664048/166098930-5ca3653d-385f-46b3-a61c-cbacbd6b499f.png"> -->
 
-![](https://user-images.githubusercontent.com/92664048/166098930-5ca3653d-385f-46b3-a61c-cbacbd6b499f.png)
+![成功运行了 boot_sect](boot_sect.png)
 
 窗口打印`Booting from Hard Disk...`，然后就没有然后了。。。。
 
