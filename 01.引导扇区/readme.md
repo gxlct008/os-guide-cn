@@ -64,6 +64,8 @@ qemu boot.bin
 qemu boot_sect_simple.bin
 ```
 
+> OSX 警告：如果出现错误，请再次阅读 00 章。
+
 Linux 机器上运行：
 
 ```bash
@@ -72,7 +74,14 @@ qemu-system-x86_64 boot.bin
 qemu-system-x86_64 boot_sect_simple.bin
 ```
 
-<img width="1217" alt="image" src="https://user-images.githubusercontent.com/92664048/166098930-5ca3653d-385f-46b3-a61c-cbacbd6b499f.png">
+> 在一些系统上，你也许必须用以下命令执行，如果出现 SDL 错误，请尝试使用参数 `--nographic and/or --curses flag(s)`
+```bash
+qemu-system-x86_64 boot_sect_simple.bin
+```
+
+<!-- <img width="1217" alt="image" src="https://user-images.githubusercontent.com/92664048/166098930-5ca3653d-385f-46b3-a61c-cbacbd6b499f.png"> -->
+
+![](https://user-images.githubusercontent.com/92664048/166098930-5ca3653d-385f-46b3-a61c-cbacbd6b499f.png)
 
 窗口打印`Booting from Hard Disk...`，然后就没有然后了。。。。
 
